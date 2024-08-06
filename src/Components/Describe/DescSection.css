@@ -1,0 +1,46 @@
+.des-section{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 60px;
+    margin-top: 30px;
+    background-color: rgb(53, 50, 50);
+} 
+.des-section h1{
+    font-size: 45px;
+    margin-left: 870px;
+    margin-bottom: -30px;
+    
+}
+.des-section p{
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 290px;
+    margin-bottom: -30px;
+}
+.span1{
+    margin-left: 0px;
+}
+.span2{
+    margin-left: 100px;
+}
+@media(max-width:768px){
+   
+    .des-section h1{
+        font-size: 40px;
+        margin-left: 3%;
+        width: 290px;
+        margin-bottom: -20px;
+      
+
+    }
+    .des-section p{
+        font-size: 30px;
+        margin-left: 3%;
+        margin-top: 1px;
+
+    }
+    .des-section p span{
+        display: none;
+    }
+}

@@ -1,0 +1,322 @@
+.title h1{
+ margin-left: 42%;
+ padding-top: 90px;
+ font-size: 66px;
+ 
+  
+    
+}
+.about-section{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap:170px;
+    padding: 10px;
+    
+}
+
+.about-section img{
+    width: 580px;
+    height: 600px;
+    border-radius: 50px 50px 5px 5px;
+   
+    
+}
+
+.describe p{
+    
+    color: white;
+    line-height: 1.5;
+    font-size: 30px;
+    align-items: center;
+ 
+}
+.skill{
+    display: flex;
+    gap: 300px;
+    margin-top: 10px;
+    
+
+}
+.skill-left li{
+    list-style-type: none;
+    padding: 3px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.skill-right li{
+    list-style-type: none;
+    padding: 3px;
+    margin: 20px 0;
+    font-size: 20px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    width:300px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition:  all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0 , 140, 1)0%, rgba(252 , 103 , 103 ,1)100%);
+}
+
+.html {
+    width: 90%;
+    animation:html 3s;
+}
+.css {
+    width: 80%;
+    animation: css 3s;
+}
+.js {
+    width: 45%;
+    animation: js 3s;
+}
+.react{
+    width: 30%;
+    animation: react 3s;
+}
+
+@keyframes html {
+    0% {
+         width: 0%; }
+    100% {
+         width: 90%; }
+}
+@keyframes css {
+    0% {
+         width: 0%; }
+    100% {
+         width: 80%; }
+}
+@keyframes js {
+    0% {
+         width: 0%; }
+    100% {
+         width: 45%; }
+}
+@keyframes react {
+    0% {
+         width: 0%; }
+    100% {
+         width: 30%; }
+}
+
+
+.next {
+    width: 30%;
+    animation:next 3s;
+}
+.tailwind {
+    width: 60%;
+    animation:tailwind 3s;
+}
+.uxui{
+    width: 40%;
+    animation:uxui 3s;
+}
+.adobe {
+    width: 50%;
+    animation:adobe 3s;
+}
+
+@keyframes next {
+    0% {
+         width: 0%; }
+    100% {
+         width: 30%; }
+}
+@keyframes tailwind {
+    0% {
+         width: 0%; }
+    100% {
+         width: 60%; }
+}
+@keyframes uxui {
+    0% {
+         width: 0%; }
+    100% {
+         width: 40%; }
+}
+@keyframes adobe {
+    0% {
+         width: 0%; }
+    100% {
+         width: 50%; }
+}
+
+
+.about-more{
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+    gap: 40px;
+}
+.education{
+    font-size: 25px;
+    /* background-color: violet; */
+    width: 790px;
+    height: 700px;
+
+}
+.education h2{
+    margin-top: 100px;
+}
+.education h3{
+    margin-top: 40px;
+
+}
+.experience{
+    font-size: 25px;
+    width: 790px;
+    height: 700px;
+    /* background-color: red; */
+}
+.experience h3{
+    margin-top: 35px;
+}
+.experience h2{
+  margin-top: 100px;
+    
+}
+
+@media(max-width:768px){
+    
+  
+    .about .title h1{
+        font-size: 40px;
+        margin-left: 25%;
+
+
+    }
+    .about-section{
+        flex-direction: column;
+        gap: 35px;
+    }
+    .about-section img{
+        width: 290px;
+        height: 280px;
+        margin-top: 5px;
+       
+    }
+    .describe p{
+        font-size: 24px;
+        margin-left:7%;
+        width: 90%;
+
+    
+    }
+   .skill{
+    flex-direction: column;
+    gap: 1px;
+   }
+
+   .skill-left li{
+        font-size: 18px;
+        margin-left: 9%;
+   }
+   .skill-left   li span{
+    width:200px ;
+    
+   }
+   .skill-left li .html{
+    width: 170px;
+   }
+   .skill-left li .css{
+    width: 150px;
+   }
+   .skill-left li .js{
+    width: 80px;
+   }
+   .skill li .react{
+    width: 60px;
+   }
+
+
+.skill-right li{
+    font-size: 18px;
+    margin-left: 9%;
+}
+.skill-right   li span{
+width:200px ;
+
+}
+.skill-right li .next{
+width: 50px;
+}
+.skill-right li .tailwind{
+width: 110px;
+}
+.skill-right li .uxui{
+width: 50px;
+}
+.skill li .adobe{
+width: 70px;
+
+}
+
+
+.about-more{
+    flex-direction: column;
+    gap: 0px;
+
+    
+    
+}
+.about-more .education h2{
+  font-size: 40px;
+  margin-left: 24%;
+  margin-top: 90px;
+ 
+}
+.about-more .education h3{
+    font-size: 24px;
+    margin-left: 13%;
+    width: 90%;
+    height: 40px;
+}
+.about-more .education{
+  
+   height: 590px;
+}
+.about-more .education p{
+    font-size: 14.6px;
+    margin-left: 13%;
+    width: 90%;
+}
+.about-more .experience h2{
+    font-size: 40px;
+    margin-left: 24%;
+    height: 50px;
+    margin-top:100px;
+   
+}
+.about-more .experience{
+  
+    height: 280px;
+}
+.about-more .experience h3{
+    font-size: 20px;
+    margin-left: 13%;
+    width: 90%;
+    height: 40px;
+}
+.about-more .experience p{
+    font-size: 14.6px;
+    margin-left: 13%;
+    width: 90%;
+    }
+
+
+}

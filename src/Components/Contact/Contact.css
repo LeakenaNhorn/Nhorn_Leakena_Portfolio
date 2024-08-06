@@ -1,0 +1,152 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.let-talk{
+   width: 700px;
+   /* background-color: violet; */
+   height: 850px;
+   
+}
+.contact-form{
+    /* background-color: red; */
+    width: 750px;
+    height: 700px;
+    padding: 30px
+    ;
+}
+.contact-form p{
+   font-size: 25px;
+}
+.contact-form input{
+    width: 500px;
+    padding: 26px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    background: rgb(62, 59, 59);
+}
+.contact-form textarea{
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    resize: vertical;
+    background: rgb(62, 59, 59);
+}
+.let-talk h5{
+    font-size: 28px;
+    margin-top: 10px;
+    
+}
+
+.let-talk p{
+    font-size: 25px;
+    padding: 2px;
+    margin-top: 30px;
+}
+.let-talk h2{
+    font-size: 40px;
+    margin-top: 80px;
+}
+.contact h1{
+    font-size: 48px;
+    margin-left: 40%;
+    margin-top: 70px;
+   
+}
+.contact h1 span{
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+   
+
+   
+.contact-btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 15px;
+    background: rgb(62, 59, 59);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5;
+}
+.location{
+   width: 50px;
+   height: 30px;
+
+}
+.email{
+    width: 50px;
+    height: 30px;
+}
+.phone{
+    width: 50px;
+    height: 30px;
+  ;
+}
+.instagram{
+    width: 50px;
+    height: 30px;
+}
+
+@media(max-width:768px){
+    .contact h1 {
+        font-size: 50px;
+        margin-left: 12%;
+        margin-bottom: -70px;
+    }
+    .contact-section{
+        flex-direction: column;
+
+    }
+    .contact-section .let-talk h2{
+            font-size: 40px;
+            margin-left: 25%;       
+            
+    }
+    .contact-section .let-talk h5{
+        font-size: 25.5px;
+        margin-left: 23.4%;
+        width: 60%;
+    }
+    .contact-section .let-talk p{
+        font-size: 16px;
+        margin-left: 22%;
+    }
+    .let-talk{
+      
+        height: 750px;
+    }
+    .contact-form p{
+        font-size: 18px;
+        margin-left: 25%;
+    }
+    .contact-form input{
+        width: 290px;
+        margin-left: 25%;
+    }
+    .contact-form textarea{
+        width: 310px;
+        margin-left: 25%;
+
+    }
+    .contact-form button{
+        width: 300px;
+        margin-left: 28%;
+    }
+    
+
+
+
+}
