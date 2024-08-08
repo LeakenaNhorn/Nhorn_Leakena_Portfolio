@@ -24,7 +24,8 @@
 }
 
 .describe p{
-    
+
+    width: 100%;
     color: white;
     line-height: 1.5;
     font-size: 30px;
@@ -221,7 +222,7 @@
   
     .about .title h1{
         font-size: 50px;
-          padding: 0;
+        margin: 10px auto -170px -50px;
 
 
     }
@@ -230,10 +231,7 @@
       
     }
     .about-section img{
-        max-width:100%;
-        height: auto;
-        right: -20px;
-        margin-bottom: -140px;
+        display: none;
        
     }
     .describe .des-p1{
@@ -250,10 +248,10 @@
         margin-bottom: -30px;
         align-items: center; */
     .about-section .describe p{
-        font-size: 34px;
-         width: 82%;
-         margin-top: 20px;
-         height: auto;
+        font-size: calc(22px + 0.5vw);
+        margin: 0px -40px 0px -27px;   
+         height: 190px;
+         width:122%;
         
 
     

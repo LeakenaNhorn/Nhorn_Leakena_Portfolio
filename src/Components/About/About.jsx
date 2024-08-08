@@ -18,7 +18,7 @@ const About = () => {
         <div><img src={about_me} alt="" /></div>
         <div className='describe'>
           <p className='des-p1'>I am an experienced Frontend Developer with over a decade of professional <br /> expertise in the field.Throughout my career, I have had the privilege of collaborating <br /> with prestigious organizations, contributing to their success and growth.</p>
-           <p>My passion for frontend development is not only reflected in my extensive experience <br />but also in the enthusiasm and dedication I bring to each project.</p>
+           <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
 
  
       
