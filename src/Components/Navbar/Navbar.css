@@ -82,7 +82,7 @@ button:hover{
     height: 100%;
     z-index:2;
     transition: right 0.5s;
-    right: -50px;
+    right:-400px;
 
     }
     .nav-menu li{
