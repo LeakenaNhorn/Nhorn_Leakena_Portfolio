@@ -33,8 +33,9 @@
 }
 .skill{
     display: flex;
-    gap: 300px;
+    gap: 100px;
     margin-top: 10px;
+
     
 
 }
@@ -158,165 +159,196 @@
 
 
 .about-more{
-    display: flex;
-    align-items: center;
-    margin-left: 210px;
-    gap: 40px;
+   display: flex;
+    align-items:flex-start;
+    justify-content: centeer;
+   gap: 160px;
+    width: 80%;
+    margin: 0 auto;
 }
 .education{
     font-size: 25px;
     /* background-color: violet; */
-    width: 790px;
-    height: 700px;
+
+    margin: 2px 0px;
 
 }
 .education h2{
-    margin-top: 100px;
+  font-size: 40px;
+  margin: 20px 0;
 }
-.education h3{
-    margin-top: 40px;
-
+.about-more .education h3{
+    width: 100%;
+    font-size: 33px;
+    height: auto;
+    margin: 45px 0px;
+    margin-bottom: 20px;
+}
+.about-more .education p{
+    font-size: 22px;
+    margin: 33px 0px;
+    align-items: center;
+    width: 100%;
 }
 .experience{
-    font-size: 25px;
-    width: 790px;
-    height: 700px;
+    font-size: 30px;
+    margin: 10px 0px;
     /* background-color: red; */
 }
 .experience h3{
-    margin-top: 35px;
+    font-size: 33px;
+    margin: 20px 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.about-more .experience p{
+
+    font-size: 22px;
+    margin: 55px 0px;
 }
 .experience h2{
-  margin-top: 100px;
-    
-}
+  margin: 2opx 0;
+ }    
+
 
 @media(max-width:768px){
+    .about{
+        margin: 50px 70px;
+        align-items: start;
+
+    }
     
   
     .about .title h1{
-        font-size: 40px;
-        margin-left: 25%;
+        font-size: 50px;
+          padding: 0;
 
 
     }
     .about-section{
         flex-direction: column;
-        gap: 35px;
+      
     }
     .about-section img{
-        width: 290px;
-        height: 280px;
-        margin-top: 5px;
+        max-width:100%;
+        height: auto;
+        right: -20px;
+        margin-bottom: -140px;
        
     }
-    .describe p{
-        font-size: 24px;
-        margin-left:7%;
-        width: 90%;
+    .describe .des-p1{
+        display: none;
+    }
+    .describe br{
+        display: none;
+    }
+
+
+    /* width: 72%;
+        font-size: 46px;
+        margin-top: 10px;
+        margin-bottom: -30px;
+        align-items: center; */
+    .about-section .describe p{
+        font-size: 34px;
+         width: 82%;
+         margin-top: 20px;
+         height: auto;
+        
 
     
     }
-   .skill{
-    flex-direction: column;
-    gap: 1px;
+   .about .skill{
+    gap: 20px;
    }
 
    .skill-left li{
-        font-size: 18px;
-        margin-left: 9%;
+        font-size: 28px;
+  
    }
    .skill-left   li span{
-    width:200px ;
+    width:100%;
     
    }
    .skill-left li .html{
-    width: 170px;
+    width: 100px;
    }
    .skill-left li .css{
-    width: 150px;
+    width: 90px;
    }
    .skill-left li .js{
-    width: 80px;
+    width: 40px;
    }
    .skill li .react{
-    width: 60px;
+    width: 30px;
    }
 
 
 .skill-right li{
-    font-size: 18px;
-    margin-left: 9%;
+    font-size: 28px;
+    
 }
 .skill-right   li span{
-width:200px ;
+ width:90%;
 
 }
 .skill-right li .next{
-width: 50px;
+  width: 20px;
 }
 .skill-right li .tailwind{
-width: 110px;
+width: 60px;
 }
 .skill-right li .uxui{
-width: 50px;
+width: 40px;
 }
 .skill li .adobe{
-width: 70px;
+width: 40px;
 
 }
 
 
 .about-more{
     flex-direction: column;
-    gap: 0px;
-
-    
+    width: 100%;
+   
     
 }
-.about-more .education h2{
-  font-size: 40px;
-  margin-left: 24%;
-  margin-top: 90px;
+.education, .experience{
+    width:90%;
+    margin:60px auto -140px auto;
+    /* margin-bottom: -30px; */
+}
+
+ .education h2, .experience h2{
+  font-size: 30px;
+  margin: 10px 0;
+ 
+ 
  
 }
-.about-more .education h3{
-    font-size: 24px;
-    margin-left: 13%;
-    width: 90%;
-    height: 40px;
+.about-more .education h3, .experience h3{
+ font-size: 25px;
+  margin:30px 0;
+ 
+    
 }
-.about-more .education{
-  
-   height: 590px;
-}
-.about-more .education p{
-    font-size: 14.6px;
-    margin-left: 13%;
-    width: 90%;
-}
-.about-more .experience h2{
-    font-size: 40px;
-    margin-left: 24%;
-    height: 50px;
-    margin-top:100px;
+
+.about-more .education p , .experience p{
+    font-size: 25px;
+    margin: 20px 0px 20px;
    
+    
+ 
+    
 }
-.about-more .experience{
-  
-    height: 280px;
-}
-.about-more .experience h3{
-    font-size: 20px;
-    margin-left: 13%;
-    width: 90%;
-    height: 40px;
-}
+
 .about-more .experience p{
-    font-size: 14.6px;
-    margin-left: 13%;
-    width: 90%;
+    font-size: 22px;
+    margin: 55px 0px -20px auto;
+  
+  
     }
 
 
-}
+} 
+

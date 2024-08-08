@@ -14,7 +14,7 @@ const Footer = () => {
         <footer>
 
 
-            <div>
+            <div className='useful'>
 
                 <h2>Useful Link</h2>
                <ul>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <h2>Contact</h2>
                 <p>Email:  johndoe@example.com</p>
                 <p>Phone:  +855 123 456 7890</p>
-                <p>Address:271 Street, terk Thlar , Sen Sok , Phnom Penh, Cambodia</p>
+                <p className='spanlocat'>Address:271 Street, terk Thlar , <span> Sen Sok , Phnom Penh, Cambodia</span></p>
 
                 <div className='icon'>
                     <FaFacebook />
@@ -71,11 +71,6 @@ const Footer = () => {
         
         </div>
         
-
-
-
-
-
         
       
     </div>

@@ -13,8 +13,8 @@
 }
 .contact-form{
     /* background-color: red; */
-    width: 750px;
-    height: 700px;
+    width: 600px;
+    height:auto;
     padding: 30px
     ;
 }
@@ -22,7 +22,7 @@
    font-size: 25px;
 }
 .contact-form input{
-    width: 500px;
+    width: 450px;
     padding: 26px;
     margin-bottom: 20px;
     color: white;
@@ -31,8 +31,8 @@
     background: rgb(62, 59, 59);
 }
 .contact-form textarea{
-    width: 500px;
-    height: 200px;
+    width:450px;
+    height:250px;
     padding: 20px;
     font-size: 20px;
     color: white;
@@ -102,51 +102,60 @@
 
 @media(max-width:768px){
     .contact h1 {
-        font-size: 50px;
-        margin-left: 12%;
-        margin-bottom: -70px;
+        font-size: 40px;
+        margin: 50px auto -70px 50px ;
+      
     }
     .contact-section{
         flex-direction: column;
 
     }
+    .contact-section .let-talk{
+        width: 100%;
+    }
     .contact-section .let-talk h2{
-            font-size: 40px;
-            margin-left: 25%;       
+     font-size: 35px;
+      margin: 50px auto 10px 45px;
+     
             
     }
     .contact-section .let-talk h5{
-        font-size: 25.5px;
-        margin-left: 23.4%;
-        width: 60%;
+        font-size: 25px;
+        width:85%;
+        margin: 20px auto 10px 50px;
     }
     .contact-section .let-talk p{
-        font-size: 16px;
-        margin-left: 22%;
-    }
-    .let-talk{
+        font-size: 23px;
+        width: 80%;
+        margin: 30px auto 20px 40px;
       
-        height: 750px;
+       
+    }
+    .contact-form{
+        width: 80%;
+        margin: -200px auto 0px 8px;
+        
     }
     .contact-form p{
-        font-size: 18px;
-        margin-left: 25%;
+        font-size: 25px;
+        margin:20px auto 10px 20px;
     }
     .contact-form input{
-        width: 290px;
-        margin-left: 25%;
+        width:95%;
+        font-size: 18px;
+       
     }
     .contact-form textarea{
-        width: 310px;
-        margin-left: 25%;
-
+        width:90%;
+        font-size: 18px;
+        
     }
     .contact-form button{
-        width: 300px;
-        margin-left: 28%;
+        width:40%;
+        margin:2px auto;
     }
     
 
 
 
-}
+} 

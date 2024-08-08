@@ -62,53 +62,68 @@ footer .icon{
     margin-left: 400px;
     font-size:20px;
 }
+
+
 @media(max-width:768px){
     footer{
-      flex-direction: column;
+     
+      flex-direction:row;
+      justify-content:flex-end;
+      gap: 50px;
+    }
+    footer .useful{
+       margin: 10px 15px 5px 10px;
+    }
+    .useful h2{
+      
+       width: auto;
+    }
+   .spanlocat span{
+    display: block;
     }
     footer h2{
-       margin-left:-40%;
+       
+    margin: 10px -5px 5px -20px;
 
     }
     footer li{
-        margin-left:-50%;
+        margin-left:-60%;
+       
     }
     footer li:hover{
         color: blue;
     }
     footer h3{
-        margin-left: -40%;
+       display: none;
     }
    footer .emailinp{
-    width: 300px;
-    margin-left: -85%;
+    display: none;
     }
     footer .btn{
-        margin-left: -20%;
+        display: none;
     }
     footer p{
         font-size: 25px;
-        width: 170%;
-        margin-left: -80%;
+        width:auto;
+        margin-left: 1%;
     }
     footer .icon{
         font-size: 35px;
-        margin-left: -70%;
+        margin-left: 1%;
     }
     .copyright {
-       flex-direction: column;
-       margin-bottom:-60% ;
+        flex-direction: column;
+        margin-bottom: -30% ;
+
+      
     }
     .last-footer {
-        flex-direction: column;        
+       margin-left: 150px;
+       gap:15px;       
     }
+
     .last-footer p{
-        font-size: 15px;
-       
-        width: 100%;
-        margin-left: -380%;
-        margin-top: 10px;
-        margin-bottom: -80%;
+       display: none; 
     }
 
 }

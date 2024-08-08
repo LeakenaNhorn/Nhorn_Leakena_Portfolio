@@ -60,48 +60,49 @@
 
 }
 
+ 
 
 
 @media(max-width:768px){
     .hero img{
-        width: 200px;
-        height: 200px;
-        margin-bottom: 40px;
+       max-width: 100%;
+       height: auto;
+       margin-top: 20px;
+       align-items: center; 
 
-        
-    
     }
     .hero h1{
-
-        width: 90%;
-        font-size: 40px;
-        margin-left: 60px;
-        margin-bottom: -50px;
+        width: 72%;
+        font-size: 46px;
+        margin-top: 10px;
+        margin-bottom: -30px;
+        align-items: center;
+       
     
     }
-    .hero h1 span{
-        margin-left: 60px;
-       
-    }
-
-
+   
     .hero h2{
+        width:auto;
         font-size: 30px;
-         margin-left:30px;
-         margin-bottom: -40px;
+        align-items: center;
+        margin:2px auto -20px 50px;
+       
        
     }
     .hero p{
-        font-size: 22px;
-        margin-left: 20px;
-        margin-bottom: -30px;
+        width:auto;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px 20px 20px;
     }
-    .Hero-button{
-        gap: 10px;
-        margin-left: 9px;
-        margin-bottom: -70px;
-        
-   
-    }
-}
+   .hero .seework-btn{
+   align-items: center;
+    border-radius: 40px;
+   }
+   .hero .resume{
+    align-items: center;
+    border-radius: 40px;
+
+   }
+} 
 
