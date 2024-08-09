@@ -1,69 +1,40 @@
 import React from 'react'
 import './Footer.css'
+import Logo from '../../assets/Logo.png'
 import { FaFacebook } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { FaUserLarge } from "react-icons/fa6";
 
 
 
 
 const Footer = () => {
   return (
-    <div>
-        <footer>
-
-
-            <div className='useful'>
-
-                <h2>Useful Link</h2>
-               <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>Project</li>
-                <li>Contact</li>
-               </ul>
-
-            </div>
-
-
-            <div>
-                <h3>New Sletter</h3>
-                <input type="text" className='emailinp' placeholder='Enter your email' /><br />
-                <button className='btn'>Subscribe</button>
-            </div>
-
-
-            <div>
-
-                <h2>Contact</h2>
-                <p>Email:  johndoe@example.com</p>
-                <p>Phone:  +855 123 456 7890</p>
-                <p className='spanlocat'>Address:271 Street, terk Thlar , <span> Sen Sok , Phnom Penh, Cambodia</span></p>
-
-                <div className='icon'>
-                    <FaFacebook />
-                <BsLinkedin />
-                <FaSquareInstagram />
-                <FaGithub />
+    <div className='footer'>
+            <div className="footer-top">
+                <div className="footer-top-left">
+                    <img src={Logo} alt="" />
+                    <p>I am a frontend developer from Takeo , Crafting user-friendly and visually appealing websites using HTML, CSS, and JavaScript. Let's bring your designs to life</p>
                 </div>
-                
-                
-                
+                <div className="footer-top-right">
+                    <div className="footer-email-input">
+                           <FaUserLarge  className='user-icon'/>
+                            <input type="email" placeholder='Enter your email' />
+
+                    </div>
+                    <div className="footer-subscribe">
+                        Subscribe
+                    </div>
+                </div>
             </div>
 
-
-         
-
-
-
-        </footer>
 
         <hr />
-        <div className='copyright'>
-        <p className='copyright'>© 2024 Leakena Nhorn. All rights reserved.</p>
-        <div className='last-footer'>
+        <div className='footer-bottom'>
+        <p className='footer-bottom-left'>© 2024 Leakena Nhorn. All rights reserved.</p>
+        <div className='footer-bottom-right'>
         <p>Term of Services</p>
         <p>Privacy Policy</p>
         <p>Connect with me</p>

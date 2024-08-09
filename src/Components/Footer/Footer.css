@@ -1,69 +1,76 @@
 footer{
     display: flex;
-    justify-content: space-around;
-    padding: 30px;
-    margin-left: 150px;
-
-}
-footer li{
-    list-style-type: none;
-    font-size: 25px;
-    padding: 10px;
-}
-footer h2{
-    font-size:35px;
-
-}
-footer .emailinp{
-    width: 380px;
-    padding: 20px;
-    border-radius: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    margin-top: 10px;
-}
-
-.btn {
-    background: linear-gradient(267deg, #c787c4 0.36%, #1288dd 102.06%);
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: 0.5;
-    margin-left:150px;
-    margin-top: 30px;
-}
-footer h3{
-    font-size: 35px;
-    margin-left: 120px;
-}
-
-footer p{
-    font-size: 20px;
-    padding: 5px;
-}
-footer .icon{
-    font-size: 40px;
-    padding: 20px;
-    display: flex;
+    margin: 40px 170px;
+    flex-direction: column;
     gap: 20px;
-  
+   
 }
-.copyright{
+.footer-top{
     display: flex;
-   justify-content: center;
-    align-items: center;
-    gap: 240px;
+    justify-content: space-around;
+}
+.footer-top-left p{
+    font-size: 24px;
+    max-width: 500px;
+}
+.footer-top-right{
+    display: flex;
+   align-items: center;
+   gap: 35px;
+}
+.footer-email-input{
+    display: flex;
+    gap: 30px;
+    padding: 20px 30p;
+    border-radius: 50px;
+    background-color: #32323B;
+    padding-right: 80px;
+}
+.user-icon{
+    font-size: 30px;
+    color: #a0a0a0;
+    margin: 20px;
+}
+.footer-email-input input{
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-family: Outfit;
+    font-size: 18px;
+    padding: 25px;
+}
+.footer-subscribe{
     font-size: 20px;
-    font-size:20px;
+    padding:22px 50px;
+    border-radius: 50px;  
+    cursor: pointer;
+    transition: 0.3s;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
 }
-.last-footer{
+.footer-bottom{
     display: flex;
-    gap: 60px;
-    margin-left: 400px;
-    font-size:20px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.footer-email-input:hover{
+    border: 2px solid white;
+
+}
+.footer-subscribe:hover{
+    transform: scale(1.12);
+    transition: 0.3s;
 }
 
 
+
+
+/* 
 @media(max-width:768px){
     footer{
      
@@ -126,4 +133,4 @@ footer .icon{
        display: none; 
     }
 
-}
+} */

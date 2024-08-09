@@ -30,6 +30,7 @@
     
 }
 .project h1 span{
+    font-weight: 500;
     background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
     background-clip: text;
     -webkit-background-clip: text;

@@ -2,18 +2,21 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 35px;
+    gap: 12px;
 }
 .hero img{
-    width: 350px;
-    height: 350px;
+
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     margin-top: 20px;
   
 }
 .hero h1{
+    text-align: center;
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 600;
+    width: 70%;
     /* texcolor:linear-gradient(267deg, #c787c4 0.36%, #1288dd 102.06%); */
   
 }
@@ -23,87 +26,76 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hero h2{
-    font-size: 40px;
-    font-weight: 600;
-}
 .hero p{
-    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0px auto;
+
 }
 
-
-.Hero-button{
+.hero-action{
     display: flex;
-    justify-content: space-between;
-    gap: 90px;
-    margin-top: 30px;
+    align-items: center;
+    gap:75px;
+    font-size: 24px;
+    font-weight: 500;
+  margin: 60px auto;
 }
+.hero-connect{
 
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%); 
 
-
-.seework-btn{
-    background:linear-gradient(267deg, #c787c4 0.36%, #1288dd 102.06%);
-    font-size: 20px;
-    padding: 20px;
-    border-radius: 35px;
+}
+.hero-resume{
+    padding:25px 75px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
     cursor: pointer;
-    transition: 0.5;
 }
-.resume {
-    border: 1px solid black;
-    background: #c787c4;
-    font-size: 20px;
-    padding: 25px;
-    border-radius: 35px;
-    cursor: pointer;
-    transition: 0.5;
+.hero-connect:hover{
+    border: 2px solid #FFF;
 
 }
-
- 
-
+.hero-resume:hover{
+    border-color: #d25bbe;
+}
 
 @media(max-width:768px){
     .hero img{
-       max-width: 100%;
-       height: auto;
-       margin-top: 20px;
-       align-items: center; 
-
+        margin-top:120px;
+        width: 400px;
     }
     .hero h1{
-       width: 100%;
-        font-size: 46px;
-        margin: 0 20px 0 70px;
-        margin-bottom: -30px;
-        align-items: center;
-       
-    
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+
     }
-   
-    .hero h2{
-        width:100%;
-        font-size: 28px;
-        align-items: center;
-        margin:2px 10px -20px 50px;
-       
-       
-    }
-    .hero p{
-        width:auto;
+    hero p{
+        width: 60%;
         font-size: 18px;
         line-height: 32px;
-        margin: 2px 0px -10px 20px;
+        margin: 10px 0;
     }
-   .hero .seework-btn{
-   display: none;
-   }
-   .hero .resume{
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 20px;
+        margin-bottom: 50px;
 
-    align-items: center;
-    border-radius: 40px;
-    margin: 0px 0px -90px 0px;
+    }
+    .hero-connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
 
-   }
-} 
+}
 

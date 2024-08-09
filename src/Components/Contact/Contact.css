@@ -1,105 +1,112 @@
-.contact-section{
+.contact{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 30px;
-    margin-top: 40px;
-}
-.let-talk{
-   width: 700px;
-   /* background-color: violet; */
-   height: 850px;
-   
-}
-.contact-form{
-    /* background-color: red; */
-    width: 600px;
-    height:auto;
-    padding: 30px
-    ;
-}
-.contact-form p{
-   font-size: 25px;
-}
-.contact-form input{
-    width: 450px;
-    padding: 26px;
-    margin-bottom: 20px;
-    color: white;
-    font-size: 20px;
-    border-radius: 15px;
-    background: rgb(62, 59, 59);
-}
-.contact-form textarea{
-    width:450px;
-    height:250px;
-    padding: 20px;
-    font-size: 20px;
-    color: white;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    resize: vertical;
-    background: rgb(62, 59, 59);
-}
-.let-talk h5{
-    font-size: 28px;
-    margin-top: 10px;
-    
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
 }
 
-.let-talk p{
-    font-size: 25px;
-    padding: 2px;
-    margin-top: 30px;
+.contact-title{
+    position: relative;
+
 }
-.let-talk h2{
-    font-size: 40px;
-    margin-top: 80px;
-}
-.contact h1{
-    font-size: 48px;
-    margin-left: 40%;
-    margin-top: 70px;
-   
-}
-.contact h1 span{
+.contact-title h1{
+    padding: 0px 20px;
+    font-size: 70px;
+    font-weight: 500;
     background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-   
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
 
+.contact-left h1{
+    font-size: 50px;
+    font-weight: 700;
+    
+
+}
+.contact-left p{
+    max-width:550px;
+    color: beige;
+    font-size: 25px;
+    line-height: 35px
+     
+}
+.contact-details{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    color:white;
+    font-size: 22px;
+}
+.contact-detail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+
+}
+.contact-right label{
+    color: #D8D8D8;
+    font-size: 22px;
+    font-weight: 500;
    
-.contact-btn{
-    width: 180px;
-    height: 60px;
-    border-radius: 15px;
-    background: rgb(62, 59, 59);
+}
+.contact-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left:20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #A0A0A0;
+    font-family: Outfit;
+    font-size: 20px;
+
+}
+
+.contact-right textarea{
+    width:650px;
+    border: none;
+    padding: 30px;
+    border-radius: 4px;
+    background: #32323c;
+    color:#A0A0A0;
+    font-family:Outfit;
+    font-size: 20px;
+
+}
+
+.contact-submit{
+    border: none;
     color: white;
+    border-radius: 50px;
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
     cursor: pointer;
-    border: 1px solid white;
-    transition: 0.5;
-}
-.location{
-   width: 50px;
-   height: 30px;
+    transition: 0.3s;
 
 }
-.email{
-    width: 50px;
-    height: 30px;
-}
-.phone{
-    width: 50px;
-    height: 30px;
-  ;
-}
-.instagram{
-    width: 50px;
-    height: 30px;
-}
 
+
+/* 
 @media(max-width:768px){
     .contact h1 {
         font-size: 40px;
@@ -158,4 +165,4 @@
 
 
 
-} 
+}  */

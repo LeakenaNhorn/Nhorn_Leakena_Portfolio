@@ -1,352 +1,177 @@
-.title h1{
- margin-left: 42%;
- padding-top: 90px;
- font-size: 66px;
- 
-  
-    
-}
-.about-section{
+.about{
     display: flex;
-    align-items:center ;
+    flex-direction: column;
     justify-content: center;
-    gap:170px;
-    padding: 10px;
-    
-}
-
-.about-section img{
-    width: 580px;
-    height: 600px;
-    border-radius: 50px 50px 5px 5px;
-   
-    
-}
-
-.describe p{
-
-    width: 100%;
-    color: white;
-    line-height: 1.5;
-    font-size: 30px;
     align-items: center;
- 
+    gap: 80px;
+    margin: 50px 150px;
+
+} 
+
+.about-title{
+    position: relative;
+
 }
-.skill{
+.about .title h1{
+    margin: 10px auto -90px 1px;  
+    font-size: 70px;
+    font-weight: 500;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} 
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-sections{
     display: flex;
-    gap: 100px;
-    margin-top: 10px;
-
-    
-
-}
-.skill-left li{
-    list-style-type: none;
-    padding: 3px;
-    margin: 20px 0;
-    font-size: 20px;
-}
-.skill-right li{
-    list-style-type: none;
-    padding: 3px;
-    margin: 20px 0;
-    font-size: 20px;
-}
-.bar{
-    background: #353b48;
-    display: block;
-    height: 20px;
-    width:300px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition:  all 0.3s cubic-bezier(.25,.8,.25,1);
-
-}
-.bar:hover{
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-.bar span{
-    height: 20px;
-    float: left;
-    background: linear-gradient(135deg, rgba(236, 0 , 140, 1)0%, rgba(252 , 103 , 103 ,1)100%);
-}
-
-.html {
-    width: 90%;
-    animation:html 3s;
-}
-.css {
-    width: 80%;
-    animation: css 3s;
-}
-.js {
-    width: 45%;
-    animation: js 3s;
-}
-.react{
-    width: 30%;
-    animation: react 3s;
-}
-
-@keyframes html {
-    0% {
-         width: 0%; }
-    100% {
-         width: 90%; }
-}
-@keyframes css {
-    0% {
-         width: 0%; }
-    100% {
-         width: 80%; }
-}
-@keyframes js {
-    0% {
-         width: 0%; }
-    100% {
-         width: 45%; }
-}
-@keyframes react {
-    0% {
-         width: 0%; }
-    100% {
-         width: 30%; }
-}
+    gap: 140px;
 
 
-.next {
-    width: 30%;
-    animation:next 3s;
 }
-.tailwind {
-    width: 60%;
-    animation:tailwind 3s;
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
-.uxui{
-    width: 40%;
-    animation:uxui 3s;
+.about-left img{
+    width: 600px;
+    height:600px;
 }
-.adobe {
-    width: 50%;
-    animation:adobe 3s;
-}
-
-@keyframes next {
-    0% {
-         width: 0%; }
-    100% {
-         width: 30%; }
-}
-@keyframes tailwind {
-    0% {
-         width: 0%; }
-    100% {
-         width: 60%; }
-}
-@keyframes uxui {
-    0% {
-         width: 0%; }
-    100% {
-         width: 40%; }
-}
-@keyframes adobe {
-    0% {
-         width: 0%; }
-    100% {
-         width: 50%; }
+.about-para{
+    display: flex;
+    flex-direction:column;
+    gap: 3px;
+    font-size:30px;
+    font-weight: 500;
 }
 
+ .about-skills{
+    display: flex;
+    flex-direction:column;
+    gap: 10px; 
 
-.about-more{
-   display: flex;
-    align-items:flex-start;
-    justify-content: centeer;
-   gap: 160px;
-    width: 80%;
-    margin: 0 auto;
+ } 
+
+.about-skill{
+    display: flex;
+     gap: 20px; 
+     align-items: center;
+     transition: 0.3s;
 }
+.about-skill p{
+    flex-shrink: 0;
+    min-width:130px;
+    font-weight: 500;
+    font-size: 20px; 
+} 
+
+.about-skill hr{
+    margin: 0;
+    outline: none;
+    border: none;
+    width:100%;
+    height: 8px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
+
+}
+ .about-educations{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom:80px;
+ }
+
 .education{
-    font-size: 25px;
-    /* background-color: violet; */
-
-    margin: 2px 0px;
-
-}
-.education h2{
-  font-size: 40px;
-  margin: 20px 0;
-}
-.about-more .education h3{
-    width: 100%;
-    font-size: 33px;
-    height: auto;
-    margin: 45px 0px;
-    margin-bottom: 20px;
-}
-.about-more .education p{
-    font-size: 22px;
-    margin: 33px 0px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-}
-.experience{
-    font-size: 30px;
-    margin: 10px 0px;
-    /* background-color: red; */
-}
-.experience h3{
-    font-size: 33px;
-    margin: 20px 0;
-    width: 100%;
-    margin-bottom: 20px;
-}
-.about-more .experience p{
+    gap: 10px;
+    transition: 0.5s; 
 
-    font-size: 22px;
-    margin: 55px 0px;
+ }
+.education h1{
+    font-size: 40px;
+    font-weight: 700;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    margin-bottom: -20px;
+    
 }
-.experience h2{
-  margin: 2opx 0;
- }    
+.education p{
+    font-size: 22px;
+    font-weight: 500;
+}
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.education:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
 
 
 @media(max-width:768px){
     .about{
+        gap: 80px;
         margin: 50px 70px;
         align-items: start;
 
     }
-    
-  
-    .about .title h1{
-        font-size: 50px;
-        margin: 10px auto -170px -50px;
+    .about-title h1{
+        font-size: 40px;
+        padding:0;
+    }
+    .about-title img{
+        width: 130px;
+        right: -20px;
 
 
     }
-    .about-section{
+    .about-sections{
         flex-direction: column;
-      
     }
-    .about-section img{
-        display: none;
-       
-    }
-    .describe .des-p1{
+    .about-left{
         display: none;
     }
-    .describe br{
-        display: none;
+    .about-para{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .about-skill{
+        gap: 50px;
+        align-items: center;
+
+    }
+    .about-skill p{
+        font-size: 20px;
+    }
+    .about-skill hr{
+        height: 6px;
+    }
+    .about-educations{
+        gap:45px;
+
+    }
+    .education{
+        gap: 10px;
+
+    }
+    .about-educations h1{
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .education p{
+        text-align: center;
+        font-size: 15px;
     }
 
-
-    /* width: 72%;
-        font-size: 46px;
-        margin-top: 10px;
-        margin-bottom: -30px;
-        align-items: center; */
-    .about-section .describe p{
-        font-size: calc(22px + 0.5vw);
-        margin: 0px -40px 0px -6px;   
-         height: 190px;
-         width:105%;
-        
-
-    
-    }
-   .about .skill{
-    gap: 20px;
-   }
-
-   .skill-left li{
-        font-size: 28px;
-  
-   }
-   .skill-left   li span{
-    width:100%;
-    
-   }
-   .skill-left li .html{
-    width: 100px;
-   }
-   .skill-left li .css{
-    width: 90px;
-   }
-   .skill-left li .js{
-    width: 40px;
-   }
-   .skill li .react{
-    width: 30px;
-   }
-
-
-.skill-right li{
-    font-size: 28px;
-    
 }
-.skill-right   li span{
- width:90%;
-
-}
-.skill-right li .next{
-  width: 20px;
-}
-.skill-right li .tailwind{
-width: 60px;
-}
-.skill-right li .uxui{
-width: 40px;
-}
-.skill li .adobe{
-width: 40px;
-
-}
-
-
-.about-more{
-    flex-direction: column;
-    width: 100%;
-   
-    
-}
-.education, .experience{
-    width:90%;
-    margin:60px auto -140px auto;
-    /* margin-bottom: -30px; */
-}
-
- .education h2, .experience h2{
-  font-size: 30px;
-  margin: 10px 0;
- 
- 
- 
-}
-.about-more .education h3, .experience h3{
- font-size: 25px;
-  margin:30px 0;
- 
-    
-}
-
-.about-more .education p , .experience p{
-    font-size: 25px;
-    margin: 20px 0px 20px;
-   
-    
- 
-    
-}
-
-.about-more .experience p{
-    font-size: 22px;
-    margin: 55px 0px -20px auto;
-  
-  
-    }
-
-
-} 
-
