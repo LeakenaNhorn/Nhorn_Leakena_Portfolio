@@ -121,21 +121,21 @@
 
 @media(max-width:768px){
     .about{
-        gap: 80px;
+        gap: 70px;
         margin: 50px 70px;
         align-items: start;
 
     }
-    .about-title h1{
-        font-size: 40px;
+    .about .title h1{
+        font-size:45px;
         padding:0;
     }
-    .about-title img{
+    /* .about .title img{
         width: 130px;
         right: -20px;
 
 
-    }
+    } */
     .about-sections{
         flex-direction: column;
     }
@@ -143,8 +143,10 @@
         display: none;
     }
     .about-para{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 35px;
+        /* align-items: start; */
+        
     }
     .about-skill{
         gap: 50px;
@@ -152,26 +154,17 @@
 
     }
     .about-skill p{
-        font-size: 20px;
+        font-size: 22px;
     }
     .about-skill hr{
         height: 6px;
     }
+    
     .about-educations{
-        gap:45px;
+      display: none;
+       
 
     }
-    .education{
-        gap: 10px;
-
-    }
-    .about-educations h1{
-        font-size: 23px;
-        font-weight: 700;
-    }
-    .education p{
-        text-align: center;
-        font-size: 15px;
-    }
+   
 
 }

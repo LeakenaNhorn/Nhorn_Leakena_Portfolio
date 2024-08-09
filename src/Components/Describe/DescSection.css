@@ -30,16 +30,19 @@
    
     .des-section h1{
         font-size: 40px;
-        margin-left: 7%;
+        margin-left:3%;
+        height: auto;
         width: 290px;
-        margin-bottom: -20px;
+        
       
 
     }
     .des-section p{
         font-size: 30px;
-        margin-left: 3%;
-        margin-top: 1px;
+        padding: 10px;
+        /* flex-direction: start; */
+        width: 100%;
+        margin: 2px ;
 
     }
     .des-section p span{

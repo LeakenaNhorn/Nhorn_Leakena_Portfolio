@@ -57,7 +57,7 @@ const About = () => {
           <hr />
           <div className="education">
           <h1>Etec Center</h1>
-            <p>Short course of Web Design (May - Aug 2022)</p>
+            <p>Short course of Web Design ( May - Aug 2022 )</p>
 
           </div>
           <hr />
