@@ -68,69 +68,37 @@ footer{
 }
 
 
-
-
-/* 
 @media(max-width:768px){
-    footer{
-     
-      flex-direction:row;
-      justify-content:flex-end;
-      gap: 50px;
-    }
-    footer .useful{
-       margin: 10px 15px 5px 10px;
-    }
-    .useful h2{
-      
-       width: auto;
-    }
-   .spanlocat span{
-    display: block;
-    }
-    footer h2{
-       
-    margin: 10px -5px 5px -20px;
+
+    .footer{
+        margin: 50px 70px;
 
     }
-    footer li{
-        margin-left:-60%;
-       
+    .footer-top{
+        flex-direction: column;
+        gap: 50px;
     }
-    footer li:hover{
-        color: blue;
+    
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 10px 0 -15px 0;
+      
     }
-    footer h3{
+    .footer-bottom-right p{
        display: none;
+        
     }
-   footer .emailinp{
-    display: none;
+    .footer-bottom .footer-bottom-left{
+        width: 100%;
+        margin: 1px -20px 0 0;
     }
-    footer .btn{
+  .footer-bottom .footer-bottom-left{
+    margin:-72px 2px -30px;
+    font-size: 13px;
+    width: 100%;
+  }
+    .footer-top-right{
         display: none;
     }
-    footer p{
-        font-size: 25px;
-        width:auto;
-        margin-left: 1%;
-    }
-    footer .icon{
-        font-size: 35px;
-        margin-left: 1%;
-    }
-    .copyright {
-        flex-direction: column;
-        margin-bottom: -30% ;
-
-      
-    }
-    .last-footer {
-       margin-left: 150px;
-       gap:15px;       
-    }
-
-    .last-footer p{
-       display: none; 
-    }
-
-} */
+}

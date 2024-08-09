@@ -73,7 +73,7 @@ const Contact = () => {
              
           <p>
             <MdMarkEmailUnread className='email' />
-            naahshii@gmail.com
+                 naashi@gmail.com
           </p>
             </div>
             <div className="contact-detail">
