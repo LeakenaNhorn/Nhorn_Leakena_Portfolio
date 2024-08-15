@@ -1,5 +1,6 @@
-import React from 'react'
+import React , { useState } from 'react'
 import './Contact.css'
+// import React, { useState } from "react"
 import { MdMarkEmailUnread } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
@@ -11,6 +12,9 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 const Contact = () => {
 
+  
+  const [status, setStatus] = useState(null);
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -20,19 +24,26 @@ const Contact = () => {
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json"
-      },
-      body: json
-    }).then((res) => res.json());
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      }).then((res) => res.json());
 
-    if (res.success) {
-      alert("Form submitted successfully");
+      if (res.success) {
+        setStatus({ type: "success", message: "Form submitted successfully" });
+      } else {
+        setStatus({ type: "error", message: "Something went wrong. Please try again." });
+      }
+    } catch (error) {
+      setStatus({ type: "error", message: "An error occurred. Please try again later." });
     }
   };
+
 
   return (
     <div id='contact' className='contact'>
@@ -73,7 +84,7 @@ const Contact = () => {
              
           <p>
             <MdMarkEmailUnread className='email' />
-                 naashi@gmail.com
+                 naahshii@gmail.com
           </p>
             </div>
             <div className="contact-detail">
@@ -102,6 +113,11 @@ const Contact = () => {
             <textarea name='message' placeholder='Write Message' required />
             <button type='submit' className='contact-submit'>Submit</button>
           </form>
+          {status && (
+          <div className={status.type === "success" ? "success" : "error"}>
+          {status.message}
+        </div>
+      )}
         </div>
       </div>
 

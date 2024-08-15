@@ -20,6 +20,7 @@
     /* texcolor:linear-gradient(267deg, #c787c4 0.36%, #1288dd 102.06%); */
   
 }
+
 .hero h1 span{
     background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
     background-clip: text;
@@ -76,6 +77,7 @@
         font-size: 45px;
 
     }
+
     .hero p{
         width: 80%;
         font-size: 25px;
@@ -100,3 +102,41 @@
 
 }
 
+
+@media(max-width:1280px){
+    .hero img {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Adjust the hero section's title font size and width */
+    .hero h1 {
+        font-size: 60px;
+        width: 80%;
+    }
+
+    /* Adjust the paragraph text size and width */
+    .hero p {
+        width: 70%;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    /* Reduce the gap between hero action buttons and adjust the font size */
+    .hero-action {
+        gap: 50px;
+        font-size: 22px;
+        margin: 40px auto;
+    }
+
+    /* Adjust padding for hero action buttons */
+    .hero-connect {
+        padding: 20px 35px;
+        border-radius: 40px;
+    }
+
+    .hero-resume {
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}

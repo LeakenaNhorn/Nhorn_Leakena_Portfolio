@@ -51,7 +51,7 @@
    
 }
 .temp-card1{
-    background: violet;
+    background:linear-gradient(267deg, #e5a464 0.36%, #d25bbe 102.06%);
     width: 600px;
     height: 460px;
     border: 1px solid white;
@@ -168,3 +168,46 @@
     }
     
 } 
+
+@media(max-width:1280px){
+    .project h1 {
+        font-size: 50px;
+        margin-left: 30%;
+    }
+
+    .project h2 {
+        font-size: 28px;
+        margin-left: 5%;
+    }
+
+    /* Template Section Adjustments */
+    .template {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .temp-card1 {
+        width: 90%;
+        height: auto;
+    }
+
+    .temp-card1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .temp-card1 p {
+        font-size: 18px;
+    }
+
+    .card-project h3 {
+        font-size: 26px;
+        margin-left: 5%;
+    }
+
+    .card-project hr {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

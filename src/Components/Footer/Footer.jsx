@@ -11,6 +11,9 @@ import { FaUserLarge } from "react-icons/fa6";
 
 
 const Footer = () => {
+    
+    const currentYear = new Date().getFullYear();
+
   return (
     <div className='footer'>
             <div className="footer-top">
@@ -33,7 +36,7 @@ const Footer = () => {
 
         <hr />
         <div className='footer-bottom'>
-        <p className='footer-bottom-left'>© 2024 Leakena Nhorn. All rights reserved.</p>
+        <p className='footer-bottom-left'>©{currentYear}Leakena Nhorn. All rights reserved.</p>
         <div className='footer-bottom-right'>
         <p>Term of Services</p>
         <p>Privacy Policy</p>
