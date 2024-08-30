@@ -49,3 +49,45 @@
         display: none;
     }
 }
+
+
+
+
+@media (max-width: 1280px) {
+    .des-section {
+      padding: 30px; 
+      margin-top: 20px; 
+      gap: 20px; 
+    }
+  
+    .des-section h1 {
+      font-size: 35px; 
+      margin-left: 0px; 
+      margin-bottom: -10px; 
+      text-align: center; 
+    }
+  
+    .des-section p {
+      font-size: 20px; 
+      padding: 10px; 
+      margin-left: 40px; 
+      margin-bottom:10px; 
+      text-align: center; 
+      max-width: 90%;
+    }
+  
+    .span1, .span2 {
+      margin-left: 0px; 
+      text-align: center; 
+    }
+  
+ 
+    .span1 {
+      margin-top: 10px;
+    }
+  
+    .span2 {
+      margin-top: 10px;
+    }
+  }
+  

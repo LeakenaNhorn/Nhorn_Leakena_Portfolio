@@ -17,7 +17,7 @@ const Navbar = () => {
     menuRef.current.style.right ="0";
   }
   const closeMenu = () => {
-    menuRef.current.style.right ="-950px";
+    menuRef.current.style.right ="-1550px";
   }
 
   return (
@@ -32,7 +32,7 @@ const Navbar = () => {
             <li>  <AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={() =>setMenu("contact")}>Contact</p></AnchorLink> </li>
         </ul>
 
-        <button onclick={() => console.log("profile clicked")}>Profile</button>
+        <button onClick={() => console.log("profile clicked")}>Profile</button>
 
        
       

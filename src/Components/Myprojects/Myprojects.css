@@ -1,7 +1,7 @@
 
-.scroll img{
-    width: 400px;
-}
+/* .scroll img{
+    width: 400px; */
+/* } */
 .scroll img:hover{
     transform: scale(1.1);
     transition: 0.3s;
@@ -211,3 +211,71 @@
         margin-left: 5%;
     }
 }
+
+
+
+
+@media (max-width: 1280px) {
+    .title h4 {
+      font-size: 30px; 
+      margin-top: 20px;
+    }
+  
+    .title p {
+      font-size: 18px; 
+      width: 90%; 
+      margin-left: 5%; 
+    }
+  
+    .project h1 {
+      font-size: 40px; 
+      margin-left: 40%; 
+    }
+  
+    .project h2 {
+      font-size: 28px; 
+      margin-left: 5%;
+      margin-top: 50px;
+    }
+  
+    .template {
+      flex-direction:row; 
+      gap: 20px;
+      margin-top: 20px;
+     padding: 20px;
+    }
+    .school-project{
+        width: 90px;
+        height:5000px;
+    }
+  
+    .temp-card1 {
+      width: 100%;
+      height: auto; 
+      padding: 12px;
+      padding: 5px;
+    }
+  
+    .temp-card1 img {
+      width: 100%; 
+      height: auto; 
+    }
+  
+    .card-project hr {
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 30px;
+    }
+  
+    .card-project h3 {
+      font-size: 24px; 
+      margin-left: 5%;
+      margin-top: 15px;
+    }
+  
+    .temp-card1 p {
+      font-size: 18px; 
+      margin-left: 5%;
+    }
+  }
+  
